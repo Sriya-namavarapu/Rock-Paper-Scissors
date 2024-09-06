@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(250, 234, 215, 0.9);
+}
+h1{
+    font-size: 3.5rem;
+    color: rgb(182, 11, 113);
+    font-family:'Times New Roman', Times, serif;
+}
+.choices{
+    margin-bottom: 30px;
+}
+#buttons{
+    font-size: 4.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 300px;
+    background-color:  rgb(235, 42, 158);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  .choices button:hover {
+    background-color: hsl(200, 100%, 70%);
+  }
+  
+  #playerDisplay, #computerDisplay {
+    color:  rgb(182, 11, 113);
+    margin: 15px;
+    font-size: 2rem;
+  }
+  
+  #resultDisplay {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    margin: 30px;
+    color: rgb(182, 11, 113);
+  }
